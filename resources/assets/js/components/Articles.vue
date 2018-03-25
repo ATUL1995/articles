@@ -1,6 +1,8 @@
 <template>
     <div class="container">
       <h1>Articles</h1>
+
+//for adding new articles      
       <form @submit.prevent="addArticle()" class="mb-3">
         <div class="form-group">
         <input type="text" class="form-control" placeholder="Title"
@@ -13,6 +15,7 @@
         <button type="submit" class="btn btn-primary btn-block">Save</button>
 
       </form>
+
       <br>
         <nav aria-label="Page navigation example">
           <ul class="pagination">
